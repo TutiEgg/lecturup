@@ -5,12 +5,11 @@ import '../styles/colors.css';
 import '../styles/globals_sidebar_2.css';
 import Layout from '../components/layout';
 import { useEffect } from "react";
-import "@code-hike/mdx/dist/index.css"
+//import "@code-hike/mdx/dist/index.css"
 import Markdown from '../components/Markdown.component';
 
 
 function MyApp({ Component, pageProps }) {
-  console.log("_app");
 
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
