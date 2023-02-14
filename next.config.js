@@ -4,7 +4,9 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "",
-  }
+  },
+  basePath: "/lecturup",
+  assetPrefix: "/lecturup"
 }
 //const theme = require("shiki/themes/nord.json")
 //const { remarkCodeHike } = require("@code-hike/mdx")
